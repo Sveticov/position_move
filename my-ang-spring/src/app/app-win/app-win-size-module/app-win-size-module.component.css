@@ -1,0 +1,21 @@
+.pos{
+  margin: 1rem;
+  padding: 1rem;
+  position: absolute;
+  border: 1px solid greenyellow;
+  background-color: #555555;
+  z-index: 7;
+}
+.mouse-control{
+
+  position: absolute;
+  width: 800px;
+  height: 550px;
+  background-color: darkgray;
+}
+.rectangle-move{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+}

@@ -1,0 +1,11 @@
+<nav>head</nav>
+<p>{{title}}</p>
+<div class="pos"><p>{{screenWidth}}</p>
+  <p>{{screenHeight}}</p>
+<p>{{posX}}+" "+{{posY}}</p>
+</div>
+<div class="mouse-control" (mousemove)="onMouseMove($event)">
+<div class="rectangle-move" [ngStyle]="{'top':posRectY,'left':posRectX}" (mouseover)="onMoveRectangle()">
+
+</div>
+</div>
